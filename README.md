@@ -1,3 +1,5 @@
+# Tic Tac Toe React Tutorial
+
 This repository tracks my progress working through a basic react tutorial: [Tic-Tac-Toe React App](https://reactjs.org/tutorial/tutorial.html).
 
 It contains the following enhancements to the basic app created in the tutorial:
@@ -8,9 +10,6 @@ It contains the following enhancements to the basic app created in the tutorial:
 4. Add a toggle button that lets you sort the moves in either ascending or descending order.
 5. When someone wins, highlight the three squares that caused the win.
 6. When no one wins, display a message about the result being a draw.
-
-
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
