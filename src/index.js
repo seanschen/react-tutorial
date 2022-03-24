@@ -152,10 +152,6 @@ function getColRow(i) {
   return colRowMap[i];
 }
 
-function isDraw(squares) {
-  return !squares.includes(null);
-}
-
 function calculateGameState(squares) {
   const lines = [
     [0, 1, 2],
@@ -178,9 +174,7 @@ function calculateGameState(squares) {
     }
   }
 
-  console.log(squares);
   if(!squares.includes(null)) return { status: 'DRAW' };
-
 
   return { status: 'RUNNING' };
 }
